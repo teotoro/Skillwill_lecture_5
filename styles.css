@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    color: #405D72;
+    font-size: 20px;
+}
+
+.task{
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+
+#randomText {
+    padding: 10px 20px;
+}
+
+
+#toggleButton {
+    background-color:#405D72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 30%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    font-size: inherit;
+}
+
+#toggleButton:hover {
+    background-color: #6082B6;
+}
+#card {
+    padding: 20px;
+    text-align: center;
+}
+#card h2 {
+    margin: 0 0 10px;
+}
+#card a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+#card a:hover {
+    color: #0056b3;
+}
+
+
+/* section 2 */
+.quiz-container{
+    min-height: 200px;
+}
+
+.quiz-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.question-container, .result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.question-container {
+    display: none;
+}
+.true, .false, .start-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 20px;
+    color: black;
+    width: 20%;
+}
+
+.true, .false{
+    columns: #fff;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="task">
+      <!-- Div with random text -->
+      <div id="randomText">This is a random text, click button to hide</div>
+
+      <!-- Button to toggle the div -->
+      <button id="toggleButton">Hide Text</button>
+    </section>
+    <section class="task">
+      <!-- New structure to be added to the DOM -->
+      <div id="card"></div>
+    </section>
+
+    <section class="task quiz-container" >
+      <div class="quiz-title">True/False Quiz</div>
+      <button class="start-button" onclick="startQuiz()">Start</button>
+
+      <div class="question-container">
+        <p id="question"></p>
+        <button class="true" onclick="answer(true)">True</button>
+        <button class="false" onclick="answer(false)">False</button>
+      </div>
+
+      <div class="result" id="result"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
